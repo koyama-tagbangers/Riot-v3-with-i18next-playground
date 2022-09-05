@@ -1,0 +1,26 @@
+{
+  "name": "riot-v3-with-i18next-playground",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development"
+  },
+  "dependencies": {
+    "i18next": "^21.9.1",
+    "i18next-browser-languagedetector": "^6.1.5",
+    "i18next-http-backend": "^1.4.1",
+    "riot": "^3.13.2"
+  },
+  "devDependencies": {
+    "@types/riot": "^3.6.2",
+    "esbuild": "^0.15.5",
+    "esbuild-loader": "^2.19.0",
+    "html-webpack-plugin": "^4.5.2",
+    "riot-tag-loader": "2.1.0",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.0"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}
