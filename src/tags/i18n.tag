@@ -18,7 +18,7 @@
       i18next.off('update', this.update);
     });
 
-    this.on('update', () => {
+    this.on('updated', () => {
       console.log('<i18n> Tag updated to', this.opts.code)
       this.localize();
     });
